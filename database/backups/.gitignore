@@ -1,0 +1,28 @@
+
+# Java / Spring Boot
+backend/target/
+**/target/
+*.log
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+**/node_modules/
+**/dist/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+CREDENTIALS.txt
+application-local.properties
+
+# Database backups and local data
+database/backups/
+database/*.sql
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
